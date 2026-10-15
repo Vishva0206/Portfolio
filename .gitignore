@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+.tanstack/
+.vercel/
+dist/
+.output/
+.nitro/
+
+# Logs
+*.log
+app-startup.log
+
+# Environment (never commit)
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.local
+
+# Local QA artifacts
+screenshots/
+
+# Grok platform internals
+.grok/app-env.json
+.grok/og-pending
